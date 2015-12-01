@@ -24,6 +24,10 @@ $(function() {
     });
 });
 
+$(".btn.btn-circle.page-scroll").click(function() {
+    $('#video1')[0].play();
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
